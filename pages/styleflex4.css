@@ -1,0 +1,61 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: rgb(255, 255, 255);
+  margin: 10%, 4%;
+    
+}
+
+h1 {
+  font-size: 64px;
+  margin: 0% 0%;
+font-weight: normal;
+}
+.flex-container-big {
+  display: flex;
+  min-height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.flex-container {
+
+  padding: 0% 0%;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  /* align-items: stretch; */
+}
+
+.flex-container > div {
+  background-color: rgba(253, 228, 239, 0.836);
+
+  padding: 4vh 20;
+  margin: 10px;
+
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: rgb(91, 38, 116);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: black;
+}
+
+
+h {
+  font-size: 64px;
+}
+
+@media only screen and (min-width: 950px) {
+
+}
