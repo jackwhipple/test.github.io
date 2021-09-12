@@ -46,7 +46,11 @@ p{
 
   border: 1px solid black;
   margin: 5px;
-  max-width: 150px;
+
+}
+
+img{
+    max-width: 150px;
 }
 
 a {
